@@ -1,3 +1,10 @@
-import toUpper from './toUpper'
+import toUpper from './string/toUpper'
+import formatPrice from './numbers/formatPrice'
 
-export default toUpper
+console.log('toUpper', toUpper)
+console.log('formatPrice', formatPrice)
+
+export {
+  toUpper,
+  formatPrice
+}

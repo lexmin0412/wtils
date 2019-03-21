@@ -11,6 +11,9 @@ npm publish
 
 ### nrm
 > 用于管理和快速切换私人配置的registry
+### npm
+[https://www.npmjs.com/package/wld-utils](https://www.npmjs.com/package/wld-utils)
+
 ```javascript
 npm i nrm -g  // 全局安装nrm
 nrm ls  //  查看当前配置
