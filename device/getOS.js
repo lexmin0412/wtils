@@ -1,5 +1,5 @@
 // 获取当前操作系统
-export const getOS = ( appSign ) => {
+const getOS = ( appSign ) => {
   let ua = window.navigator.userAgent.toLowerCase()
   if ( !appSign ) {
     return null
@@ -19,3 +19,5 @@ export const getOS = ( appSign ) => {
     }
   }
 }
+
+export default getOS
