@@ -1,7 +1,7 @@
 /**
  * 格式化金额数值
  */
-export default const formatPrice = ( num ) => {
+export default formatPrice = ( num ) => {
   if ( num ) {
     let mainText = Number(num).toFixed(2) + ''
     let dotIndex = mainText.indexOf('.')
