@@ -7,6 +7,10 @@ nrm ls        //  查看当前配置
 nrm use npm  // 切换npm源
 npm login
 npm publish
+
+npm install rollup -g  // 全局安装rollup
+// 新建rollup.config.js 编辑配置文件
+rollup -c  // 依据rollup.config.js配置文件中的配置来使用rollup打包
 ```
 
 ### nrm
