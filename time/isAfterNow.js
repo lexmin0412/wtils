@@ -1,5 +1,5 @@
 // 是否晚于当前时间
-function isAfterNow ( compareDate ) {
+const isAfterNow = ( compareDate ) => {
   var now = new Date()
   var dater = new Date(compareDate)
   var year = dater.getFullYear()
@@ -68,4 +68,5 @@ function isAfterNow ( compareDate ) {
   }
 }
 
-module.exports = isAfterNow
+// module.exports = isAfterNow
+export default isAfterNow
