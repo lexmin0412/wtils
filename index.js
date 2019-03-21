@@ -4,7 +4,7 @@ import formatPrice from './numbers/formatPrice'
 console.log('toUpper', toUpper)
 console.log('formatPrice', formatPrice)
 
-export {
+export default {
   toUpper,
   formatPrice
 }
