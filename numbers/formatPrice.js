@@ -1,7 +1,7 @@
 /**
  * 格式化金额数值
  */
-export default formatPrice = ( num ) => {
+const formatPrice = ( num ) => {
   if ( num ) {
     let mainText = Number(num).toFixed(2) + ''
     let dotIndex = mainText.indexOf('.')
@@ -13,3 +13,5 @@ export default formatPrice = ( num ) => {
     return '0.00'
   }
 }
+
+export default formatPrice
