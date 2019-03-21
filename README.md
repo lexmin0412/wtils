@@ -29,3 +29,8 @@ nrm use npm  // 切换npm源
 `You do not have permission to publish "cc-utils". Are you logged in as the correct user?`
 // npm已经存在同名包
 ```
+
+### npm常用命令
+```javascript
+npm update [package name] -D  // 更新指定npm包
+```

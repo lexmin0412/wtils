@@ -3,6 +3,7 @@ import formatPrice from './numbers/formatPrice'
 import showShareHints from './share/showShareHints'
 import isAfterNow from './time/isAfterNow'
 import sliceStrUntilDivicer from './string/sliceStrUntilDivicer'
+import getOS from './device/getOS'
 // const isAfterNow = require('time/isAfterNow')
 
 console.log('toUpper', toUpper)
@@ -13,5 +14,6 @@ export default {
   formatPrice,
   showShareHints,
   isAfterNow,
-  sliceStrUntilDivicer
+  sliceStrUntilDivicer,
+  getOS
 }
