@@ -46,13 +46,16 @@ const showShareHints =()=> {
 	}
 };
 
+const isAfterNow = require('time/isAfterNow');
+
 console.log('toUpper', toUpper);
 console.log('formatPrice', formatPrice);
 
 var index = {
   toUpper,
   formatPrice,
-  showShareHints
+  showShareHints,
+  isAfterNow
 };
 
 module.exports = index;
