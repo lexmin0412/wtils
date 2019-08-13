@@ -1,3 +1,10 @@
+# js-utils
+
+- js公用方法库
+
+### TODO
+- [ ] 引入babel处理ES6+语法
+
 ### npm publish
 
 ```javascript
