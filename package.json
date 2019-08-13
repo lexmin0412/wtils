@@ -4,12 +4,20 @@
   "description": "业务工具类",
   "main": "index.js",
   "scripts": {
+    "build": "rollup -c",
+    "buildc": "rollup --config rollup/config.js",
+    "buildi": "rollup src/index.js -o dist/bundle.js -f cjs",
+    "buildj": "rollup src/index.js --output.file dist/bundle.js --format cjs",  // 上面简写命令的完整版
+    "dev": "rollup --config rollup/dev.js",  // 开发环境
+    "build:prod": "rollup --config rollup/prod.js",  // 开发环境
+    "build:uat": "rollup --config rollup/uat.js",  // 开发环境
+    "build1": "rollup index.js --format cjs --output bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:cathe-zhang/wld-utils.git"
   },
-  "author": "cathe",
+  "author": "cellerchan",
   "license": "ISC"
 }
