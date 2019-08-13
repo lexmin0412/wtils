@@ -68,5 +68,4 @@ const isAfterNow = ( compareDate ) => {
   }
 }
 
-// module.exports = isAfterNow
 export default isAfterNow

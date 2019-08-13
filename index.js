@@ -4,7 +4,6 @@ import showShareHints from './share/showShareHints'
 import isAfterNow from './time/isAfterNow'
 import sliceStrUntilDivider from './string/sliceStrUntilDivider'
 import getOS from './device/getOS'
-// const isAfterNow = require('time/isAfterNow')
 
 console.log('toUpper', toUpper)
 console.log('formatPrice', formatPrice)
