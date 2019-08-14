@@ -1,0 +1,53 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add @babel/core -D
+
+PATH: 
+  /Users/cellerchan/development/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/cellerchan/development/flutter/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.1.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/cellerchan/Desktop/git_repos/js-utils/package.json: Unexpected token } in JSON at position 751
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "wld-utils",
+    "version": "1.0.11",
+    "description": "业务工具类",
+    "main": "index.js",
+    "scripts": {
+      "build": "rollup -c",
+      "buildc": "rollup --config rollup/rollup.config.js",
+      "buildi": "rollup src/index.js -o dist/bundle.js -f cjs",
+      "buildj": "rollup src/index.js --output.file dist/bundle.js --format cjs",
+      "dev": "rollup --config rollup/dev.js",
+      "build:prod": "rollup --config rollup/prod.js",
+      "build:uat": "rollup --config rollup/uat.js",
+      "build1": "rollup index.js --format cjs --output bundle.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:cathe-zhang/wld-utils.git"
+    },
+    "author": "cellerchan",
+    "license": "ISC",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
