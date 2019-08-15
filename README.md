@@ -3,7 +3,7 @@
 ### Install
 ```bash
 yarn add wld-utils
-``
+```
 
 ### Usage
 ```js
