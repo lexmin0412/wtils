@@ -1,9 +1,10 @@
 {
   "name": "wld-utils",
   "version": "1.0.15",
-  "description": "业务工具类",
+  "description": "utils classes",
   "main": "src/index.js",
   "module": "src/index.js",
+  "keywords": ["utils", "js"],
   "scripts": {
     "build": "rollup -c",
     "buildc": "rollup --config rollup/rollup.config.js",
