@@ -4,6 +4,7 @@ import showShareHints from './share/showShareHints'
 import isAfterNow from './time/isAfterNow'
 import sliceStrUntilDivider from './string/sliceStrUntilDivider'
 import getOS from './device/getOS'
+import {pumpFieldFromList} from './array/array'
 
 console.log('toUpper', toUpper)
 console.log('formatPrice', formatPrice)
@@ -14,5 +15,6 @@ export default {
   showShareHints,
   isAfterNow,
   sliceStrUntilDivider,
-  getOS
+  getOS,
+  pumpFieldFromList
 }
