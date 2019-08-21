@@ -1,5 +1,5 @@
 // 是否晚于当前时间
-const isAfterNow = ( compareDate ) => {
+const isAfterNow = ( compareDate: any ) => {
   var now = new Date()
   var dater = new Date(compareDate)
   var year = dater.getFullYear()

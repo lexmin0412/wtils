@@ -1,7 +1,8 @@
 /**
  * 格式化金额数值
+ * @param num 需要格式化的数值/字符串
  */
-const formatPrice = ( num ) => {
+const formatPrice = ( num: number | string ) => {
   if ( num ) {
     let mainText = Number(num).toFixed(2) + ''
     let dotIndex = mainText.indexOf('.')

@@ -4,8 +4,8 @@
  * @param field 用于过滤的字段
  * @returnValue 返回的数组
  */
-export const pumpFieldFromList = (list, field) => {
-    var result = [];
+export const pumpFieldFromList = (list: Array<any>, field: string) => {
+    var result: Array<any> = [];
     for (var i = 0; i < list.length; i++) {
         result.push(list[i][field]);
     }
