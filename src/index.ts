@@ -1,10 +1,11 @@
-import toUpper from './string/toUpper'
+import toUpper, { transFirstLetterToUpper } from './string/toUpper'
 import formatPrice from './numbers/formatPrice'
 import showShareHints from './share/showShareHints'
 import isAfterNow from './time/isAfterNow'
 import sliceStrUntilDivider from './string/sliceStrUntilDivider'
 import getOS from './device/getOS'
 import {pumpFieldFromList} from './array/array'
+import { transParams } from './string/transParam'
 
 console.log('toUpper', toUpper)
 console.log('formatPrice', formatPrice)
@@ -16,5 +17,7 @@ export default {
   isAfterNow,
   sliceStrUntilDivider,
   getOS,
-  pumpFieldFromList
+  pumpFieldFromList,
+  transParams,
+  transFirstLetterToUpper
 }
