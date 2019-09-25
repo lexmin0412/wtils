@@ -175,6 +175,25 @@ var pumpFieldFromList = function (list, field) {
     console.log('过滤得到的数组', result);
     return result;
 };
+/**
+ * 查找某个元素或值是否在数组中存在，如果存在则删除，否则push
+ * @param list 数组
+ * @param value 查找的值
+ * @param field 用于比较的元素属性 如果不传则是直接比较数组item
+ */
+var verifyEleInArr = function (list, value, field) {
+    var resultList = list.slice();
+    var index = list.findIndex(function (item, index) {
+        return item === value;
+    });
+    if (index > -1) {
+        resultList.splice(index, 1);
+    }
+    else {
+        resultList.push(value);
+    }
+    return resultList;
+};
 
 /**
  * 转换JSON格式字符串为url拼接字符串
@@ -204,6 +223,7 @@ var index = {
     sliceStrUntilDivider: sliceStrUntilDivider,
     getOS: getOS,
     pumpFieldFromList: pumpFieldFromList,
+    verifyEleInArr: verifyEleInArr,
     transParams: transParams,
     transFirstLetterToUpper: transFirstLetterToUpper
 };

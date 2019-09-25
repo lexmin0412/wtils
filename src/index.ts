@@ -4,7 +4,10 @@ import showShareHints from './share/showShareHints'
 import isAfterNow from './time/isAfterNow'
 import sliceStrUntilDivider from './string/sliceStrUntilDivider'
 import getOS from './device/getOS'
-import {pumpFieldFromList} from './array/array'
+import {
+  pumpFieldFromList,
+  verifyEleInArr
+} from './array/array'
 import { transParams } from './string/transParam'
 
 console.log('toUpper', toUpper)
@@ -18,6 +21,7 @@ export default {
   sliceStrUntilDivider,
   getOS,
   pumpFieldFromList,
+  verifyEleInArr,
   transParams,
   transFirstLetterToUpper
 }
