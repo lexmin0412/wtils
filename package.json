@@ -1,10 +1,14 @@
 {
-  "name": "wld-utils",
-  "version": "1.0.15",
+  "name": "wtils",
+  "version": "0.2.0",
   "description": "utils classes",
-  "main": "src/index.js",
-  "module": "src/index.js",
-  "keywords": ["utils", "js"],
+  "main": "dist/bundle.js",
+  "module": "dist/bundle.js",
+  "keywords": [
+    "utils",
+    "js"
+  ],
+  "files": ["dist"],
   "scripts": {
     "build": "rollup -c",
     "buildc": "rollup --config rollup/rollup.config.js",
